@@ -1,0 +1,75 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .recorder {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .upload-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(157, 149, 192);
+    cursor: pointer;
+  }
+  
+  .voice-visualizer {
+    display: block;
+    margin: 20px auto;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+  }
+  
+  .audio-player {
+    margin-top: 20px;
+  }
+  
+  .notes-textarea {
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .upload-button {
+    margin-top: 10px;
+  }
+  
+  .voice-memo-table {
+    width: 80%;
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Ensure the borders don't double */
+  }
+  
+  .voice-memo-table th, 
+  .voice-memo-table td {
+    border: 1px solid #ddd; /* Add border to cells */
+    padding: 12px; /* Padding inside cells */
+    text-align: center; /* Center-align text inside cells */
+  }
+  
+  .voice-memo-table th {
+    background-color: #f2f2f2; /* Light background for header */
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 10px;
+  }
+  
+  .pagination select {
+    margin-left: 10px;
+    padding: 5px;
+  }
